@@ -17,12 +17,14 @@ int main(){
 
     if(n<0){
         n=n*-1;
-        while(n>10){
+        while(n>0){
              n=n/10;
              i++;
         }
 
     }
+
+    //if number is positive
     while(n>0){
         n=n/10;
         i++;
@@ -30,5 +32,6 @@ int main(){
     }
     
     cout<<"the number of digits are "<<i;
+    return 0;
 
 }
