@@ -7,6 +7,6 @@ int main(){
     for(i=0;i<=n;i++){
         sum=sum+i;
     }
-    cout<<"the sum till "<<n<<" is "<<sum;
+    cout<<"the sum of digits till "<<n<<" is "<<sum;
     return 0;
 }
