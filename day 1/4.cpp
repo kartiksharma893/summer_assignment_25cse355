@@ -31,7 +31,7 @@ int main(){
         
     }
     
-    cout<<"the number of digits are "<<i;
-    return 0;
+    cout<<"the number of digits in given number are "<<i;
+    
 
 }
