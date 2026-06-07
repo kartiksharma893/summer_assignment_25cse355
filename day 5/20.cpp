@@ -26,7 +26,7 @@ int main()
     cin >> n;
 
     if(n<=1){
-        cout<<" no prime factor found" ;
+        cout<<" no prime factor found " ;
         return 0;
     }
     
