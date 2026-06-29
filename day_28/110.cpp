@@ -39,14 +39,14 @@ void displayAccounts()
         return;
     }
 
-    cout << "\n----- Account Records -----\n";
+    cout << "\n      Account Records\n";
 
     for (int i = 0; i < accounts.size(); i++)
     {
         cout << "Account No : " << accounts[i].accountNo << endl;
         cout << "Name       : " << accounts[i].name << endl;
         cout << "Balance    : " << accounts[i].balance << endl;
-        cout << "---------------------------\n";
+       
     }
 }
 
